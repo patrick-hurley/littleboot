@@ -3,46 +3,32 @@
 @import 'helpers';
 
 // Columns
-//
-// Common styles for small and large grid columns
-
 @include make-grid-columns;
 
-
 // Extra Extra small grid
-
 @include make-grid(xxs);
 
-
-
 // Extra Small grid
-
 @media (min-width: $screen-xs-min) {
     @include make-grid(xs);
 }
 
 // Small grid
-
 @media (min-width: $screen-sm-min) {
     @include make-grid(sm);
 }
 
-
 // Medium grid
-
 @media (min-width: $screen-md-min) {
     @include make-grid(md);
 }
 
-
 // Large grid
-
 @media (min-width: $screen-lg-min) {
     @include make-grid(lg);
 }
 
 // Container
-
 .container {
     @include container-fixed;
 
