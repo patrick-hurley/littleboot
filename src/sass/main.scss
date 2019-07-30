@@ -1,11 +1,11 @@
-@import 'grid/grid';
+@import 'littleboot/grid';
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    margin: 50px 0;
+    margin: 10px 0;
 }
 
 div:not(.container) {
@@ -16,5 +16,11 @@ div:not(.container) {
         background: #def7f5;
         border: 0;
         border-radius: 20px;
+    }
+}
+
+.test {
+    @include breakpoint-down(xxs){
+        font-size: 400px;
     }
 }
