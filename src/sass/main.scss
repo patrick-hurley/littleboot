@@ -1,0 +1,20 @@
+@import 'grid/grid';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px 0;
+}
+
+div:not(.container) {
+    height: 500px;
+    padding: 10px;
+    div {
+        height: 100%;
+        background: #def7f5;
+        border: 0;
+        border-radius: 20px;
+    }
+}
