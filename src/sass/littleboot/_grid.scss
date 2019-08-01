@@ -48,3 +48,10 @@
         width: $container-lg;
     }
 }
+
+.container--full {
+    div[class^="l-"] {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
